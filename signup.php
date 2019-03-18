@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+    //The beginning of the code.
         <div class="container">
             <div class="left">
                 <div class="form">
