@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+.sexy-btn {
+    color: white;
+    outline: none;
+    border: none;
+    background: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all .6s;
+}
+.sexy-btn:hover {
+    color: black;
+    background: white;
+    border: 1px solid orange;
+}
+.sexy-btn a{
+    color: black;
+    text-decoration: none;
+    transition: all .6s;
+}
+.sexy-btn a:hover{
+    color: orange;
+}

@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: lato;
+}
+.header {
+	height: 150px;
+	background-color: #47425d;
+}
+.logo {
+	display: inline;
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.logo img {
+	width: 20%;
+	height: 80px;
+}
+.menu {
+	display: inline;
+	float: right;
+	margin: 45px; 
+}
+.menu li {
+	display: flex;
+	text-decoration: none;
+	font-size: 18px;
+}
+.menu li a {
+	text-decoration: none;
+	color: #1e73be;
+	transition: color .4s;
+}
+.menu li a:hover {
+	color: #d65050;
+}

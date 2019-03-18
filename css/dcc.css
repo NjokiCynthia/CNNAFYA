@@ -1,0 +1,54 @@
+body {
+	background-image:"admin.jpg";
+	margin: 0;
+	padding: 0;
+	font-family: lato;
+}
+.header {
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.logo {
+	display: inline;
+	float: left;
+	margin: 10px;
+}
+.logo img {
+	width: 20%;
+	height: 80px;
+}
+.menu {
+	display: inline;
+	float: right;
+	margin: 20px; 
+}
+.menu ul {
+	display: flex;
+	text-decoration: none;
+	font-size: 18px;
+}
+.menu ul li {
+	display: flex;
+	text-decoration: none;
+	font-size: 18px;
+    padding: 0 20px;
+}
+.menu li a {
+	text-decoration: none;
+	color: #ccc;
+	transition: color .4s;
+}
+.menu li a:hover {
+	color: #fff;
+}
+.content {
+    display: flex;
+}
+.left {
+    float: left;
+    width: 50%;
+}
+.right {
+    float: right;
+    width: 50%;
+}

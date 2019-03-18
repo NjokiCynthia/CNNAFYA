@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+    background: url(images/19728.jpg) no-repeat;
+    background-size: cover;
+}
+.details {
+    display: inline;
+    float: left;
+    margin: 50px;
+}
+.regForm {
+    display: inline;
+    float: right;
+    margin: 50px;
+    width: 320px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 50px;
+    border-radius: 50px;
+}
+
+.text-area input {
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    background: none;
+    border: none;
+    color: white;
+    overflow: hidden;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 2px solid white;
+}
+
+.regForm h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 40px;
+}
+#btn input {
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    background: none;
+    border: none;
+    color: white;
+    overflow: hidden;
+    margin: 8px 0;
+    padding: 8px 0;
+}
+#btn {
+    border-radius: 8px;
+    margin: 10px;
+    border-bottom: none;
+    transition: all .6s;
+}
+#btn:hover {
+    margin: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.errors {
+    color: maroon;
+    background-color: palevioletred;
+    border: 2px solid maroon;
+    padding: 8px;
+}
+.extra {
+    color: white;
+    float: left;
+}
+.sexy-btn {
+    color: white;
+    outline: none;
+    border: none;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: all .6s;
+}
+.sexy-btn:hover {
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+.sexy-btn a{
+    color: white;
+    text-decoration: none;
+    transition: all .6s;
+}
+.sexy-btn a:hover{
+    color: black;
+}

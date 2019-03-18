@@ -1,0 +1,108 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+.header {
+    height: 130px;
+    background: #181818;
+    display: flex;
+}
+.logo {
+    float: left;
+}
+.logo img {
+    width: 30%;
+    padding: 15px;
+}
+.menu {
+    float: right;
+}
+.menu ul {
+	display: flex;
+	text-decoration: none;
+}
+.menu ul li {
+	display: flex;
+	text-decoration: none;
+    font-family: lato;
+    padding: 40px 20px;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: #d65050;
+	transition: color .6s;
+}
+.menu ul li a:hover {
+	color: #1e73be;
+}
+.menu ul li form button {
+	border: 1px solid #d65050;
+    background: rgba(0,0,0,0);
+    color: #d65050;
+    padding: 5px;
+    border-radius: 3px;
+    transition: all .6s;
+}
+.menu ul li form button:hover {
+	border: 1px solid #1e73be;
+    color: #1e73be;
+}
+.content {
+    background: #555;
+    font-family: lato;
+    padding: 50px;
+    margin: 0 50px;
+}
+.content .hello {
+    background: #ccc;
+    margin: 0 30%;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+.content .options {
+    display: flex;
+    margin: 7%;
+    text-align: center;
+}
+.content .options #build {
+    float: left;
+    width: 50%;
+    margin: 0 100px;
+    background: #ccc;
+    padding: 50px;
+    border-radius: 5px;
+}
+.content .options #consult {
+    float: right;
+    width: 50%;
+    margin: 0 100px;
+    background: #ccc;
+    padding: 50px;
+    border-radius: 5px;
+}
+.primary-btn {
+    text-decoration: none;
+    border: 1px solid #1e73be;
+    color: #1e73be;
+    padding: 5px;
+    transition: all .6s;
+}
+.primary-btn:hover {
+    border: 1px solid #d65050;
+    color: #d65050;
+}
+.options-cols .image img {
+    width: 40%;
+}
+.cont {
+    margin-bottom: 1.3rem;
+}
+.footer {
+    background: #181818;
+    font-family: lato;
+    height: 30px;
+    color: #555;
+    padding: 13px;
+}
