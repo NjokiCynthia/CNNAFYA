@@ -21,6 +21,7 @@
             </ul>
         </div>
     </div>
+//This shows the content.
     <div class="content">
         <div class="hello">
             Hello there, <strong><?php
